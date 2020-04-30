@@ -87,6 +87,8 @@ namespace SAMEEncoder
                 wGen.addData(WaveExampleType.zero);
             }
             wGen.addData(WaveExampleType.broadcastCombined);
+            wGen.addData(WaveExampleType.zero);
+            wGen.addData(WaveExampleType.zero);
             wGen.Save(".\\Message.wav");
         }
     }
